@@ -1,0 +1,21 @@
+{
+  "name": "next-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "dev:debug": "cross-env DEBUG=true nodemon server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js",
+    "start:debug": "NODE_ENV=production DEBUG=true node server.js"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.2",
+    "express": "^4.17.1",
+    "next": "^9.3.5",
+    "nodemon": "^2.0.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
